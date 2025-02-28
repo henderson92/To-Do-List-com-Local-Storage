@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List com Local Storage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <input type="text" id="new-task" placeholder="Nova tarefa">
+    <div class="button-container">
+        <button onclick="addTask()">Adicionar</button>
+        <button onclick="sortTasks()">Ordenar por Status</button>
+        <button onclick="exportTasks()">Exportar Tarefas</button>
+        <input type="file" onchange="importTasks(event)" accept=".json" id="import-file" style="display: none;">
+        <label for="import-file" class="import-label">Importar Tarefas</label>
+    </div>
+    <ul id="todo-list"></ul>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
