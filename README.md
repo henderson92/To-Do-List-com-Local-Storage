@@ -30,4 +30,4 @@ Um projeto simples de uma lista de tarefas (To-Do List) que persiste no navegado
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/to-do-list.git
+   git clone henderson92/To-Do-List-com-Local-Storage
